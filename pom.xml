@@ -834,8 +834,14 @@
 			<artifactId>jeecg-p3-biz-chat</artifactId>
 			<version>1.0.1</version>
 		</dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20170516</version>
+		</dependency>
 		 
 	</dependencies>
+
 
 	<organization>
 		<name>JEECG 智能快速开发平台</name>
@@ -896,6 +902,8 @@
 							<value>${project.build.sourceEncoding}</value>
 						</systemProperty>
 					</systemProperties>
+					<stopKey/>
+					<stopPort/>
 				</configuration>
 			</plugin>
 	    </plugins>
